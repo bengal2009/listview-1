@@ -2,16 +2,14 @@ package com.easymorse.separate;
 
 
 
-import java.util.ArrayList;
-import java.util.List;
-
-
-
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends Activity {
 	
@@ -66,7 +64,6 @@ class MyAdapter extends ArrayAdapter<String> {
 		super(context,  textViewResourceId, objects);
 	
 	}
-
 	@Override
 	public boolean areAllItemsEnabled() {
 		return false; 
